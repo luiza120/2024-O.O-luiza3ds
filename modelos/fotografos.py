@@ -6,7 +6,12 @@ class Fotografo:
 
 fotografo_Igor = Fotografo()
 fotografo_Sofia = Fotografo()
+fotografo_Natalia = Fotografo()
 
-fotografos = [fotografo_Igor, fotografo_Sofia]
+fotografo_Sofia.nome = 'Sofia Starling'
+fotografo_Sofia.categoria = 'Retratista'
 
-print(fotografos)
+fotografos = [fotografo_Igor, fotografo_Sofia, fotografo_Natalia]
+
+print(fotografos/n)
+print(fotografo_Sofia/n)
